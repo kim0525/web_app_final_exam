@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <style>
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ff3399;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: rgb(253, 110, 255);
+    }
+
+
+
+    body {
+      background: #050505 url("https://i.pinimg.com/originals/73/25/ef/7325ef018d75a82e6055f54980aa007e.jpg") no-repeat right top;
+      margin-right: 200px;
+    }
+
+    
+    .neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+    }
+
+    h1 {
+    font-size: 4.2rem;    
+    }
+
+    /* Flickering animation */
+    @keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px rgb(234, 0, 255),
+      0 0 80px rgb(255, 0, 221),
+      0 0 90px rgb(255, 0, 255),
+      0 0 100px rgb(255, 0, 242),
+      0 0 150px rgb(255, 0, 149);
+  
+      }
+  
+    20%, 24%, 55% {        
+      text-shadow: none;
+      }    
+    }
+
+
+    /* Additional styling */
+  
+  h2 {
+    font-size: 1.8rem;
+  } 
+  .container {
+    margin-top: 20vh;
+  }
+
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01
+    url("https://i.pinimg.com/originals/73/25/ef/7325ef018d75a82e6055f54980aa007e.jpg") no-repeat right top;
+    margin-right: 200px;
+  }  
+
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+   font-weight: 400;
+  }
+
+
+  </style>
+
+  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Main</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/signup">Signin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/search">Search</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="/galaga">갤러그 게임</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/haxelg">HexGL 게임</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/circus">서커스 게임</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/tower">탑 쌓기 게임</a>
+    </li>
+  </ul>
+</nav>
+<br>
+<div class="container">
+  <h1 class="neonText">
+        오락실 Arcade!
+  </h1>
+  <h2 class="neonText">2학년 A반 20200738 김유지</h2> 
+
+</div>
+
+<!--
+<div class="container-fluid">
+  <h3>20200738 김유지 프로젝트 입니다</h3>
+  
+  
+</div>
+-->
+
+</body>
+</html>

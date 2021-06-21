@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HexGL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+  <style>
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ff3399;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: rgb(253, 110, 255);
+    }
+
+
+
+
+
+    html { 
+    background: url(https://i.pinimg.com/originals/0c/e2/48/0ce2481d5ff79ee4f23c11127263ec55.jpg) no-repeat center fixed; 
+    background-size: cover;
+    }
+
+    body { 
+    color: white; 
+    }
+
+
+
+
+
+
+
+    .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+
+    .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    }
+
+  </style>
+
+  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Main</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/signup">Signin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/search">Search</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="/galaga">갤러그 게임</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/haxelg">HexGL 게임</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/circus">서커스 게임</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/tower">탑 쌓기 게임</a>
+    </li>
+    
+  </ul>
+</nav>
+<br>
+
+
+<div class="wrap">
+    
+    <button class="button" type="button" onclick="location.href='http://hexgl.bkcore.com/play/' ">HexGL 게임 시작</button>
+</div>
+
+
+
+</body>
+</html>
